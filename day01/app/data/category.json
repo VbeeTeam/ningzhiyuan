@@ -1,0 +1,469 @@
+{
+    "resultCode":200,
+    "message":"SUCCESS",
+    "data":[
+        {
+            "goodsId":15,
+            "sellingPrice":1,
+            "goodsName":"家电 数码 手机",
+            "secondLevelCategoryVOS":[
+                {
+                    "goodsId":17,
+                    "parentId":15,
+                    "sellingPrice":2,
+                    "goodsName":"家电",
+                    "thirdLevelCategoryVOS":[
+                        {
+                            "goodsId":20,
+                            "sellingPrice":3,
+                            "goodsName":"生活电器",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":110,
+                            "sellingPrice":3,
+                            "goodsName":"wer",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":21,
+                            "sellingPrice":3,
+                            "goodsName":"厨房电器",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":22,
+                            "sellingPrice":3,
+                            "goodsName":"扫地机器人",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":23,
+                            "sellingPrice":3,
+                            "goodsName":"吸尘器",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":24,
+                            "sellingPrice":3,
+                            "goodsName":"取暖器",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":25,
+                            "sellingPrice":3,
+                            "goodsName":"豆浆机",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":26,
+                            "sellingPrice":3,
+                            "goodsName":"暖风机",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":27,
+                            "sellingPrice":3,
+                            "goodsName":"加湿器",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":28,
+                            "sellingPrice":3,
+                            "goodsName":"蓝牙音箱",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":29,
+                            "sellingPrice":3,
+                            "goodsName":"烤箱",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":30,
+                            "sellingPrice":3,
+                            "goodsName":"卷发器",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":31,
+                            "sellingPrice":3,
+                            "goodsName":"空气净化器",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        }
+                    ]
+                },
+                {
+                    "goodsId":18,
+                    "parentId":15,
+                    "sellingPrice":2,
+                    "goodsName":"数码",
+                    "thirdLevelCategoryVOS":[
+                        {
+                            "goodsId":32,
+                            "sellingPrice":3,
+                            "goodsName":"游戏主机",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":43,
+                            "sellingPrice":3,
+                            "goodsName":"二手手机",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":33,
+                            "sellingPrice":3,
+                            "goodsName":"数码精选",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":34,
+                            "sellingPrice":3,
+                            "goodsName":"平板电脑",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":35,
+                            "sellingPrice":3,
+                            "goodsName":"苹果 Apple",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":36,
+                            "sellingPrice":3,
+                            "goodsName":"电脑主机",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":37,
+                            "sellingPrice":3,
+                            "goodsName":"数码相机",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":38,
+                            "sellingPrice":3,
+                            "goodsName":"电玩动漫",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":39,
+                            "sellingPrice":3,
+                            "goodsName":"单反相机",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":40,
+                            "sellingPrice":3,
+                            "goodsName":"键盘鼠标",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":41,
+                            "sellingPrice":3,
+                            "goodsName":"无人机",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":42,
+                            "sellingPrice":3,
+                            "goodsName":"二手电脑",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        }
+                    ]
+                },
+                {
+                    "goodsId":19,
+                    "parentId":15,
+                    "sellingPrice":2,
+                    "goodsName":"手机",
+                    "thirdLevelCategoryVOS":[
+                        {
+                            "goodsId":45,
+                            "sellingPrice":3,
+                            "goodsName":"荣耀手机",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":46,
+                            "sellingPrice":3,
+                            "goodsName":"华为手机",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":49,
+                            "sellingPrice":3,
+                            "goodsName":"华为 P30",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":44,
+                            "sellingPrice":3,
+                            "goodsName":"iPhone 11",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":47,
+                            "sellingPrice":3,
+                            "goodsName":"苹果 iPhone",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":48,
+                            "sellingPrice":3,
+                            "goodsName":"华为 Mate 20",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":51,
+                            "sellingPrice":3,
+                            "goodsName":"小米手机",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":53,
+                            "sellingPrice":3,
+                            "goodsName":"OPPO",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":54,
+                            "sellingPrice":3,
+                            "goodsName":"一加",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":55,
+                            "sellingPrice":3,
+                            "goodsName":"小米 MIX",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":56,
+                            "sellingPrice":3,
+                            "goodsName":"Reno",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":57,
+                            "sellingPrice":3,
+                            "goodsName":"vivo",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":58,
+                            "sellingPrice":3,
+                            "goodsName":"手机以旧换新",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "goodsId":16,
+            "sellingPrice":1,
+            "goodsName":"女装 男装 穿搭",
+            "secondLevelCategoryVOS":[
+                {
+                    "goodsId":67,
+                    "parentId":16,
+                    "sellingPrice":2,
+                    "goodsName":"女装",
+                    "thirdLevelCategoryVOS":[
+                        {
+                            "goodsId":76,
+                            "sellingPrice":3,
+                            "goodsName":"外套",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "goodsId":61,
+            "sellingPrice":1,
+            "goodsName":"家具 家饰 家纺",
+            "secondLevelCategoryVOS":[
+                {
+                    "goodsId":70,
+                    "parentId":61,
+                    "sellingPrice":2,
+                    "goodsName":"家具",
+                    "thirdLevelCategoryVOS":[
+                        {
+                            "goodsId":77,
+                            "sellingPrice":3,
+                            "goodsName":"沙发",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "goodsId":59,
+            "sellingPrice":1,
+            "goodsName":"运动 户外 乐器",
+            "secondLevelCategoryVOS":[
+                {
+                    "goodsId":73,
+                    "parentId":59,
+                    "sellingPrice":2,
+                    "goodsName":"运动",
+                    "thirdLevelCategoryVOS":[
+                        {
+                            "goodsId":78,
+                            "sellingPrice":3,
+                            "goodsName":"跑鞋",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "goodsId":60,
+            "sellingPrice":1,
+            "goodsName":"游戏 动漫 影视",
+            "secondLevelCategoryVOS":[
+                {
+                    "goodsId":79,
+                    "parentId":60,
+                    "sellingPrice":2,
+                    "goodsName":"游戏",
+                    "thirdLevelCategoryVOS":[
+                        {
+                            "goodsId":82,
+                            "sellingPrice":3,
+                            "goodsName":"LOL",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "goodsId":62,
+            "sellingPrice":1,
+            "goodsName":"美妆 清洁 宠物",
+            "secondLevelCategoryVOS":[
+                {
+                    "goodsId":83,
+                    "parentId":62,
+                    "sellingPrice":2,
+                    "goodsName":"美妆",
+                    "thirdLevelCategoryVOS":[
+                        {
+                            "goodsId":86,
+                            "sellingPrice":3,
+                            "goodsName":"口红",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":104,
+                            "sellingPrice":3,
+                            "goodsName":"睫毛膏",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":103,
+                            "sellingPrice":3,
+                            "goodsName":"腮红",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":102,
+                            "sellingPrice":3,
+                            "goodsName":"粉底",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":101,
+                            "sellingPrice":3,
+                            "goodsName":"隔离霜",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":100,
+                            "sellingPrice":3,
+                            "goodsName":"美白",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        },
+                        {
+                            "goodsId":99,
+                            "sellingPrice":3,
+                            "goodsName":"气垫",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "goodsId":63,
+            "sellingPrice":1,
+            "goodsName":"工具 装修 建材",
+            "secondLevelCategoryVOS":[
+                {
+                    "goodsId":87,
+                    "parentId":63,
+                    "sellingPrice":2,
+                    "goodsName":"工具",
+                    "thirdLevelCategoryVOS":[
+                        {
+                            "goodsId":90,
+                            "sellingPrice":3,
+                            "goodsName":"转换器",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "goodsId":66,
+            "sellingPrice":1,
+            "goodsName":"鞋靴 箱包 配件",
+            "secondLevelCategoryVOS":[
+                {
+                    "goodsId":95,
+                    "parentId":66,
+                    "sellingPrice":2,
+                    "goodsName":"鞋靴",
+                    "thirdLevelCategoryVOS":[
+                        {
+                            "goodsId":98,
+                            "sellingPrice":3,
+                            "goodsName":"休闲鞋",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "goodsId":65,
+            "sellingPrice":1,
+            "goodsName":"玩具 孕产 用品",
+            "secondLevelCategoryVOS":[
+                {
+                    "goodsId":115,
+                    "parentId":65,
+                    "sellingPrice":2,
+                    "goodsName":"玩具",
+                    "thirdLevelCategoryVOS":[
+                        {
+                            "goodsId":116,
+                            "sellingPrice":3,
+                            "goodsName":"机器人",
+                            "goodsCoverImg": "http://backend-api-01.newbee.ltd/goods-img/64768a8d-0664-4b29-88c9-2626578ffbd1.jpg"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
