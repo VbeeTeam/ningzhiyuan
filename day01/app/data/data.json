@@ -14,61 +14,61 @@
     "navList": [
         {
           "name": "超市",
-          "imgUrl": "//s.weituibao.com/1583585285461/cs.png",
+          "imgUrl": "http://s.weituibao.com/1583585285461/cs.png",
           "categoryId": 100001,
           "href": "https://m.jd.com/"
         },
         {
           "name": "服饰",
-          "imgUrl": "//s.weituibao.com/1583585285468/fs.png",
+          "imgUrl": "http://s.weituibao.com/1583585285468/fs.png",
           "categoryId": 100003,
           "href": "https://pro.m.jd.com/mall/active/3qMkfmPMc55RTahmSSpwwuxVrYMG/index.html"
         },
         {
           "name": "京东国际",
-          "imgUrl": "//s.weituibao.com/1583585285470/qq.png",
+          "imgUrl": "http://s.weituibao.com/1583585285470/qq.png",
           "categoryId": 100002,
           "href": "https://pro.m.jd.com/mall/active/3YvKJrc4e4WK7aZ46j3h5UMCvEn4/index.html"
         },
         {
           "name": "生鲜",
-          "imgUrl": "//s.weituibao.com/1583585285472/sx.png",
+          "imgUrl": "http://s.weituibao.com/1583585285472/sx.png",
           "categoryId": 100004,
           "href": "https://pro.m.jd.com/mall/active/4P9a2T9osR9JvtzHVaYTPvsecRtg/index.html"
         },
         {
           "name": "到家",
-          "imgUrl": "//s.weituibao.com/1583585285467/dj.png",
+          "imgUrl": "http://s.weituibao.com/1583585285467/dj.png",
           "categoryId": 100005,
           "href": "https://daojia.jd.com/html/index.html?channel=jdapp"
         },
         {
           "name": "充值缴费",
-          "imgUrl": "//s.weituibao.com/1583585285465/cz.png",
+          "imgUrl": "http://s.weituibao.com/1583585285465/cz.png",
           "categoryId": 100006,
           "href": "https://prodev.m.jd.com/mall/active/N2p5dHzdwxnAqp182PVJmc5L5Se/index.html"
         },
         {
           "name": "9.9元拼",
-          "imgUrl": "//s.weituibao.com/1583585285469/pt.png",
+          "imgUrl": "http://s.weituibao.com/1583585285469/pt.png",
           "categoryId": 100007,
           "href": "https://m.jingxi.com/mcoss/wxmall/home?_fd=jx&ptag=17008.1.14&&ptype=2&nodrainage=1&showFootNav=0"
         },
         {
           "name": "领劵",
-          "imgUrl": "//s.weituibao.com/1583585285468/juan.png",
+          "imgUrl": "http://s.weituibao.com/1583585285468/juan.png",
           "categoryId": 100008,
           "href": "https://coupon.m.jd.com/center/getCouponCenter.action"
         },
         {
           "name": "省钱",
-          "imgUrl": "//s.weituibao.com/1583585285471/sq.png",
+          "imgUrl": "http://s.weituibao.com/1583585285471/sq.png",
           "categoryId": 100009,
           "href": "https://active.jd.com/forever/cashback/index?channellv=mapp"
         },
         {
           "name": "数码电器",
-          "imgUrl": "//s.weituibao.com/1583585285470/qb.png",
+          "imgUrl": "http://s.weituibao.com/1583585285470/qb.png",
           "categoryId": 100010,
           "href": "https://pro.m.jd.com/mall/active/8tHNdJLcqwqhkLNA8hqwNRaNu5f/index.html"
         }

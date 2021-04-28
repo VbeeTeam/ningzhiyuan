@@ -17,7 +17,7 @@
 <script>
 export default {
   // 定义属性
-  name: "",
+  name: "About",
   data() {
     return {};
   },

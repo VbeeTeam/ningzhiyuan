@@ -25,13 +25,13 @@
               </div>
             </div>
           </div>
-          <van-button
+          <!-- <van-button
             slot="right"
             icon="delete"
             type="danger"
             class="delete-button"
-            @click="deleteGood(item.goodsId,index)"
-          />
+            @click="deleteGood(item.goodsId, index)"
+          /> -->
         </van-swipe-cell>
       </van-checkbox-group>
     </div>
@@ -70,10 +70,8 @@ export default {
     //合计
     total() {
       let sum = 0;
-      let list = this.list.filter((item) =>
-        this.result.includes(item.goodsId)
-      );
-      list.forEach((item) => {
+      let selectList = this.list.filter((item) => this.result.includes(item.goodsId));
+      selectList.forEach((item) => {
         sum += item.goodsCount * item.sellingPrice;
       });
       return sum;
@@ -82,7 +80,6 @@ export default {
   methods: {
     //绑定的复选框发生改变
     groupChange(result) {
-      console.log(result);
       if (result.length == this.list.length) {
         this.checkAll = true;
       } else {
@@ -97,10 +94,10 @@ export default {
         this.$refs.checkboxGroup.toggleAll();
       }
     },
-    //删除
-    deleteGood(id, index){
-      this.list.splice(index, 1)
-    },
+    // //删除
+    // deleteGood(id, index) {
+    //   this.list.splice(index, 1);
+    // },
     //结算
     onSubmit() {
       if (this.total <= 0) {
@@ -112,6 +109,16 @@ export default {
             message: "您要支付了哦",
           })
           .then(() => {
+            var list = this.$store.state.successList;
+            console.log(list)
+            //拿到选择的数据
+            var selectList = this.list.filter((item) => this.result.includes(item.goodsId));
+            var newList = list.concat(selectList);
+            this.$store.commit("successChange", newList);
+            //更新购物车数据
+            var notselectList = this.list.filter((item) => !this.result.includes(item.goodsId));
+            this.$store.commit("cartChange", notselectList);
+            //跳转订单
             this.$router.push({ path: "/order" });
           })
           .catch(() => {
@@ -119,14 +126,13 @@ export default {
           });
       }
     },
-    goTo(){
-      this.$router.push({path: "/"})
-    }
+    goTo() {
+      this.$router.push({ path: "/" });
+    },
   },
   created() {
-    this.list = this.$store.state.orderList;
-  }
-
+    this.list = this.$store.state.cartList;
+  },
 };
 </script>
 
@@ -136,10 +142,13 @@ export default {
     padding-left: 10px;
     .good-item {
       display: flex;
+      align-items: center;
       .good-img {
         img {
-          width: 100px;
-          height: 100px;
+          width: 50px;
+          height: 50px;
+          border-radius: 5px;
+          margin-left: 10px;
         }
       }
       .good-desc {

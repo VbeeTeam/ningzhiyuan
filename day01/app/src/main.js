@@ -58,6 +58,8 @@ import VueAxios from 'vue-axios'
 
 Vue.use(VueAxios, axios)
 
+//引入数据
+require('../data/mock')
 
 // 阻止显示生产模式的消息
 Vue.config.productionTip = false

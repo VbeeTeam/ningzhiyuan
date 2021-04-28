@@ -44,13 +44,13 @@ export default {
       this.rightList = this.cateList[index].secondLevelCategoryVOS;
     },
     toDetail(obj) {
+      this.$store.commit("detailInfo", obj)
       this.$router.push({path: "/detail", query:{info: obj}})
     }
   },
   // 生命周期 - 创建完成（可以访问当前this实例）
   created() {
-    this.axios.get("http://localhost:8080/category").then((res) => {
-      console.log(res.data);
+    this.axios.get("/category").then((res) => {
       this.cateList = res.data.data;
       this.rightList = res.data.data[0].secondLevelCategoryVOS;
     });

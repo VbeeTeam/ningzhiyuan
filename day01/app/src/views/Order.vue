@@ -12,13 +12,13 @@
       <van-tab title="交易完成" name="2"></van-tab>
     </van-tabs>
     <van-pull-refresh v-model="refreshing" class="order-list-refresh">
-      <van-list v-for="(item, index) in list" :key="index">
-        <div class="order-item-box" v-if="item.type == status">
+      <van-list>
+        <div class="order-item-box" v-for="(item, index) in list" :key="index">
           <img :src="item.goodsCoverImg" alt="" />
           <div class="item-right">
             <h3>{{ item.goodsName }}</h3>
             <p>{{ item.goodsIntro }}</p>
-            <span>{{ item.sellingPrice }}</span>
+            <b>￥{{ item.sellingPrice }}</b>
           </div>
         </div>
       </van-list>
@@ -42,11 +42,17 @@ export default {
   methods: {
     onChangeTab(name) {
       this.status = name;
+      if(name == 0){
+        this.list = this.$store.state.cartList.concat(this.$store.state.successList);
+      }else if(name == 1){
+        this.list = this.$store.state.cartList;
+      }else{
+        this.list = this.$store.state.successList;
+      }
     },
   },
   created() {
-    this.list = this.$store.state.orderList;
-    console.log(this.list);
+    this.list = this.$store.state.cartList.concat(this.$store.state.successList);
   },
 };
 </script>
@@ -72,6 +78,9 @@ export default {
       background-color: #fff;
       display: flex;
       align-items: center;
+      .item-right{
+        margin-left: 10px;
+      }
       img {
         width: 50px;
         height: 50px;
@@ -86,10 +95,11 @@ export default {
         padding: 0;
         margin: 0;
       }
-      span {
+      b {
         font-size: 12px;
         padding: 0;
         margin: 0;
+        color: red;
       }
     }
   }

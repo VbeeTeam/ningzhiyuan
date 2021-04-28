@@ -1,6 +1,6 @@
 <template>
   <div class="login">
-    <img class="logo" src="http://s.weituibao.com/1582958061265/mlogo.png" alt="">
+    <img class="logo" src="../assets/images/cart.png" alt="">
     <div v-if="type == '登录'" class="login-body login">
       <van-form @submit="onSubmit">
         <van-field
@@ -58,7 +58,7 @@ export default {
       username: '',
       password: '',
       type: '登录',
-      userInfo: localStorage.getItem("userInfo") ? localStorage.getItem("userInfo") : []
+      userInfo: localStorage.getItem("userInfo") ? JSON.parse(localStorage.getItem("userInfo")) : []
     }
   },
   components: {
@@ -85,7 +85,7 @@ export default {
         }
       } else {
         this.userInfo.push(values)
-        localStorage.setItem("userInfo", this.userInfo);
+        localStorage.setItem("userInfo",JSON.stringify(this.userInfo));
         this.type = '登录'
       }
     },
@@ -101,7 +101,7 @@ export default {
       width: 120px;
       height: 120px;
       display: block;
-      margin: 80px auto 0px;
+      margin: 80px auto 30px;
     }
     .login-body {
       padding: 0 20px;

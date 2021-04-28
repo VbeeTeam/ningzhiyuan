@@ -26,7 +26,6 @@ export default {
   },
   watch: {
     $route(to){
-      console.log(to)
       if(to.path == "/" || to.path == "/login"){
         this.backText = ""
         this.btnBoolean = false

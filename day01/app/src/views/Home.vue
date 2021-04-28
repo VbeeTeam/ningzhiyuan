@@ -88,12 +88,12 @@ export default {
     },
     //detail
     goToDetail(item){
+      this.$store.commit("detailInfo", item)
       this.$router.push({path:"/detail", query:{info: item}})
     }
   },
   created() {
-    this.axios.get("http://localhost:8080/data").then((res) => {
-      console.log(res.data);
+    this.axios.get("/data").then((res) => {
       this.swiperList = res.data.swiperList;
       this.hotGoodses = res.data.hotGoodses;
       this.newGoodses = res.data.newGoodses;

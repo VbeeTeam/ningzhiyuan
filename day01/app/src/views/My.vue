@@ -2,9 +2,9 @@
   <div class="my wrap">
     <div class="user-info">
       <div class="info">
-        <img src="//s.weituibao.com/1583583975067/user-graduate%20(1).png"/>
+        <img src="http://s.weituibao.com/1583583975067/user-graduate%20(1).png"/>
         <div class="user-desc">
-          <span>登录名：{{ user.loginName }}</span>
+          <span>登录名：{{ user[0].username }}</span>
         </div>
       </div>
     </div>
@@ -35,7 +35,11 @@ export default {
     goTo(r) {
       this.$router.push({ path: r })
     }
+  },
+  created(){
+   this.user = JSON.parse(localStorage.getItem("userInfo"));
   }
+
 }
 </script>
 

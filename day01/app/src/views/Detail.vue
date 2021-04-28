@@ -36,17 +36,15 @@ export default {
   name: "Details",
   data() {
     return {
-      detail: null
+      detail: null,
     };
   },
   methods: {
     //添加购物车
     addCart() {
-      var list = this.$store.state.orderList;
-      this.detail.type = 1;
+      var list = this.$store.state.cartList;
       list.push(this.detail);
-
-      this.$store.commit("orderChange", list);
+      this.$store.commit("cartChange", list);
       this.$router.push({ path: "/cart" });
     },
     //立即购买
@@ -58,9 +56,9 @@ export default {
         })
         .then(() => {
           // on confirm
-         var list = this.$store.state.orderList;
-          this.detail.type = 2;
-          this.$store.commit("orderChange", list);
+          var list = this.$store.state.successList;
+          list.push(this.detail);
+          this.$store.commit("successChange", list);
           this.$router.push({ path: "/order" });
         })
         .catch(() => {
@@ -70,8 +68,8 @@ export default {
   },
   // 生命周期 - 创建完成（可以访问当前this实例）
   created() {
-    console.log("拿到路由跳转id", this.$route.query.info);
-    this.detail = this.$route.query.info;
+    // this.detail = this.$route.query.info;
+    this.detail = this.$store.state.detailObj;
   },
   // 生命周期 - 挂载完成（可以访问DOM元素）
   mounted() {},
